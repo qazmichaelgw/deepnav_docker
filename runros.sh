@@ -9,7 +9,7 @@
 # See: http://wiki.ros.org/docker/Tutorials/GUI
 #TARGET=osrf/ros:indigo-desktop-full-nvidia
 #TARGET=ros:indigo-ros-base
-TARGET=deepnav_docker
+TARGET=qazmichaelgw/deepnav_docker
 #export MYNVIDIA=$(curl -s http://localhost:3476/v1.0/docker/cli?dev=0\&vol=nvidia_driver)
 #export MYNVIDIA="-e LD_LIBRARY_PATH=/usr/local/nvidia/lib64 --volume=nvidia_driver_361.42:/usr/local/nvidia:ro --device=/dev/nvidia0 --device=/dev/nvidiactl --device=/dev/nvidia-uvm"
 #export MYNVIDIA="-e LD_LIBRARY_PATH=/usr/local/nvidia/lib64 --volume=nvidia_driver_361.42:/usr/local/nvidia:ro --device=/dev/nvidia0 --device=/dev/nvidiactl --device=/dev/nvidia-uvm"
