@@ -10,7 +10,8 @@
 #TARGET=osrf/ros:indigo-desktop-full-nvidia
 #TARGET=ros:indigo-ros-base
 #TARGET=qazmichaelgw/deepnav_docker
-TARGET=qazmichaelgw/deepnav_mcdlp
+TARGET=qazmichaelgw/deepnav_ros
+#TARGET=test
 #TARGET=gcr.io/tensorflow/tensorflow:latest-gpu
 #export MYNVIDIA=$(curl -s http://localhost:3476/v1.0/docker/cli?dev=0\&vol=nvidia_driver)
 #export MYNVIDIA="-e LD_LIBRARY_PATH=/usr/local/nvidia/lib64 --volume=nvidia_driver_361.42:/usr/local/nvidia:ro --device=/dev/nvidia0 --device=/dev/nvidiactl --device=/dev/nvidia-uvm"
