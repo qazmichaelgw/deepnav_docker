@@ -13,3 +13,6 @@ for example:
 
 -v /media/psl-ctg/Data:/workspace
 ```
+
+For multiple terminal.
+I recommend to use tmux for multiple terminal. And tmux is also configured in deepnav_ros from ```https://github.com/gpakosz/.tmux```
